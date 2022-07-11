@@ -3,6 +3,7 @@
   "version": 2,
   "projects": {
     "ask-suzy": "apps/ask-suzy",
-    "ask-suzy-e2e": "apps/ask-suzy-e2e"
+    "ask-suzy-e2e": "apps/ask-suzy-e2e",
+    "core": "libs/core"
   }
 }
