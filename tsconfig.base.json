@@ -15,7 +15,8 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
-      "@suzy-core-poc/core": ["libs/core/src/index.ts"]
+      "@suzy-core-poc/core": ["libs/core/src/index.ts"],
+      "@suzy-core-poc/mission": ["libs/mission/src/index.ts"]
     }
   },
   "exclude": ["node_modules", "tmp"]

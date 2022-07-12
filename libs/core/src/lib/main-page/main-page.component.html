@@ -1,1 +1,19 @@
-<p>main-page works!</p>
+<div class="container">
+    <ul class="left-nav">
+        <li><a [routerLink]="['/dashboard']">Dashboard</a></li>
+        <li>Templates</li>
+        <li>><a [routerLink]="['/mission']">Create action</a></li>
+        <li>Action List</li>
+    </ul>
+    <div class="body">
+    <div class="header">
+        <div>
+            Suzy Icon
+        </div>
+        <div>
+            Create Action
+        </div>
+    </div>
+    <ng-content></ng-content>
+</div>
+</div>

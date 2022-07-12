@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 
 @Component({
-  selector: 'suzy-core-poc-root',
+  selector: 'suzy-root',
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.scss'],
 })

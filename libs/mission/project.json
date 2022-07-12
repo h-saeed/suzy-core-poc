@@ -1,20 +1,20 @@
 {
   "projectType": "library",
-  "sourceRoot": "libs/core/src",
+  "sourceRoot": "libs/mission/src",
   "prefix": "suzy",
   "targets": {
     "test": {
       "executor": "@nrwl/jest:jest",
-      "outputs": ["coverage/libs/core"],
+      "outputs": ["coverage/libs/mission"],
       "options": {
-        "jestConfig": "libs/core/jest.config.ts",
+        "jestConfig": "libs/mission/jest.config.ts",
         "passWithNoTests": true
       }
     },
     "lint": {
       "executor": "@nrwl/linter:eslint",
       "options": {
-        "lintFilePatterns": ["libs/core/**/*.ts", "libs/core/**/*.html"]
+        "lintFilePatterns": ["libs/mission/**/*.ts", "libs/mission/**/*.html"]
       }
     }
   },

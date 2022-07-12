@@ -1,7 +1,7 @@
 {
   "projectType": "application",
   "sourceRoot": "apps/ask-suzy/src",
-  "prefix": "suzy-core-poc",
+  "prefix": "suzy",
   "targets": {
     "build": {
       "executor": "@angular-devkit/build-angular:browser",

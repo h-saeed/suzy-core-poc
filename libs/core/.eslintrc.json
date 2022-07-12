@@ -21,7 +21,7 @@
           "error",
           {
             "type": "element",
-            "prefix": "suzy-core-poc",
+            "prefix": "suzy",
             "style": "kebab-case"
           }
         ]

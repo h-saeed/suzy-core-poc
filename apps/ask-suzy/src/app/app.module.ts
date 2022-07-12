@@ -1,7 +1,6 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { RouterModule } from '@angular/router';
-import { CoreModule } from '@suzy-core-poc/core';
 import { AppComponent } from './app.component';
 
 @NgModule({
@@ -10,7 +9,8 @@ import { AppComponent } from './app.component';
     BrowserModule, 
     RouterModule.forRoot([
       { path: '', pathMatch: 'full', redirectTo: 'home' },
-      { path: 'home', loadChildren: () => import('@suzy-core-poc/core').then((m) => m.CoreModule) } 
+      { path: 'home', loadChildren: () => import('@suzy-core-poc/core').then((m) => m.CoreModule) },
+      { path: 'mission', loadChildren: () => import('@suzy-core-poc/mission').then((m) => m.MissionModule) } 
     ])
   ],
   providers: [],
